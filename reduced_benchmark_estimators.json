@@ -1,0 +1,65 @@
+{
+  "reduced_15x2_path_length": {
+    "description": "Shared 15-word, 2-trial reduced LisanBench estimator. Words are optimized for 30-call reduced runs and use one global estimator because it gave the best practical thinking-ordering tradeoff.",
+    "metric": "sum_longest_valid_chain_avg_over_50_words",
+    "source_results": "latest_results.json",
+    "num_words": 15,
+    "trials_per_word": 2,
+    "estimator_mode": "global",
+    "selection_objective": "30-call practical reduced benchmark; optimize word subset on clean macro class LOO R^2, choose global estimator based on Monte Carlo ordering/MAE performance",
+    "words": [
+      "all",
+      "beat",
+      "brass",
+      "created",
+      "flags",
+      "jobs",
+      "keep",
+      "lamp",
+      "leaders",
+      "moves",
+      "not",
+      "one",
+      "reached",
+      "sex",
+      "shipping"
+    ],
+    "simulation_quality": {
+      "monte_carlo_runs": 300,
+      "overall_spearman": 0.9775,
+      "thinking_spearman": 0.9826,
+      "thinking_kendall_tau": 0.9002,
+      "thinking_mae": 302.1,
+      "overall_mae": 164.5
+    },
+    "estimators": {
+      "global": {
+        "n_models": 137,
+        "intercept": 6.736372571331204,
+        "coefficients": [
+          7.968340743182543,
+          0.3487613496256891,
+          4.068358569234566,
+          3.091244030501971,
+          1.2916611612800692,
+          3.5698063411923266,
+          2.2553518909694463,
+          3.1193260262966422,
+          3.130098456686539,
+          3.7258162967701796,
+          3.3509203376561545,
+          0.37507719009131946,
+          5.5017187050609575,
+          0.9068629786810364,
+          3.7157814673122935
+        ],
+        "train_r2": 0.9988581769200846,
+        "loo_r2": 0.9974265836014699,
+        "loo_mae": 72.90421144325776,
+        "loo_rmse": 117.2653434140268,
+        "simulated_mae": 164.5,
+        "simulated_thinking_mae": 302.1
+      }
+    }
+  }
+}

@@ -1,0 +1,1918 @@
+# Primary model catalog: one entry per model.
+# Runtime reads only this file for model metadata.
+models:
+  - id: "arcee-ai/trinity-mini:thinking"
+    company: "arcee-ai"
+    completion_provider: "openrouter"
+    pricing:
+      in: 0.045
+      out: 0.15
+    release:
+      date: "2025-12-01"
+      source: "https://www.arcee.ai/blog/the-trinity-manifesto"
+  - id: "amazon/nova-lite-v1"
+    company: "amazon"
+    completion_provider: "openrouter"
+    pricing:
+      in: 0.06
+      out: 0.24
+    release:
+      date: "2024-12-03"
+      source: "https://aws.amazon.com/about-aws/whats-new/2024/12/amazon-nova-foundation-models-bedrock/"
+  - id: "amazon/nova-micro-v1"
+    company: "amazon"
+    completion_provider: "openrouter"
+    pricing:
+      in: 0.035
+      out: 0.14
+    release:
+      date: "2024-12-03"
+      source: "https://aws.amazon.com/about-aws/whats-new/2024/12/amazon-nova-foundation-models-bedrock/"
+  - id: "amazon/nova-pro-v1"
+    company: "amazon"
+    completion_provider: "openrouter"
+    pricing:
+      in: 0.8
+      out: 3.2
+    release:
+      date: "2024-12-03"
+      source: "https://aws.amazon.com/about-aws/whats-new/2024/12/amazon-nova-foundation-models-bedrock/"
+  - id: "anthropic/claude-3-haiku"
+    company: "anthropic"
+    completion_provider: "openrouter"
+    batch_completion_provider: "anthropic"
+    completion_model_id: "claude-3-haiku-20240307"
+    pricing:
+      in: 0.25
+      out: 1.25
+    release:
+      date: "2024-03-13"
+      source: "https://www.anthropic.com/news/claude-3-haiku"
+  - id: "anthropic/claude-3-5-haiku-20241022"
+    company: "anthropic"
+    completion_provider: "openrouter"
+    batch_completion_provider: "anthropic"
+    completion_model_id: "claude-3-5-haiku-20241022"
+    pricing:
+      in: 1.0
+      out: 4.0
+    release:
+      date: "2024-10-22"
+      source: "https://www.anthropic.com/news/3-5-models-and-computer-use"
+  - id: "anthropic/claude-3.5-sonnet-20240620"
+    company: "anthropic"
+    completion_provider: "openrouter"
+    batch_completion_provider: "anthropic"
+    completion_model_id: "claude-3-5-sonnet-20240620"
+    pricing:
+      in: 3.0
+      out: 15.0
+    release:
+      date: "2024-06-20"
+      source: "https://www.anthropic.com/news/claude-3-5-sonnet"
+  - id: "anthropic/claude-3.5-sonnet"
+    company: "anthropic"
+    completion_provider: "openrouter"
+    batch_completion_provider: "anthropic"
+    completion_model_id: "claude-3-5-sonnet-20241022"
+    pricing:
+      in: 3.0
+      out: 15.0
+    release:
+      date: "2024-10-22"
+      source: "https://www.anthropic.com/news/3-5-models-and-computer-use"
+  - id: "anthropic/claude-3.7-sonnet"
+    company: "anthropic"
+    completion_provider: "openrouter"
+    batch_completion_provider: "anthropic"
+    completion_model_id: "claude-3-7-sonnet-20250219"
+    pricing:
+      in: 3.0
+      out: 15.0
+    release:
+      date: "2025-02-24"
+      source: "https://www.anthropic.com/news/claude-3-7-sonnet"
+  - id: "anthropic/claude-3.7-sonnet:thinking-16k"
+    company: "anthropic"
+    completion_provider: "openrouter"
+    batch_completion_provider: "anthropic"
+    completion_model_id: "claude-3-7-sonnet-20250219"
+    pricing:
+      in: 3.0
+      out: 15.0
+    release:
+      date: "2025-02-24"
+      source: "https://www.anthropic.com/news/claude-3-7-sonnet"
+  - id: "anthropic/claude-3-opus"
+    company: "anthropic"
+    completion_provider: "openrouter"
+    batch_completion_provider: "anthropic"
+    completion_model_id: "claude-3-opus-20240229"
+    pricing:
+      in: 15.0
+      out: 75.0
+    release:
+      date: "2024-03-04"
+      source: "https://www.anthropic.com/news/claude-3-family"
+  - id: "anthropic/claude-sonnet-4"
+    company: "anthropic"
+    completion_provider: "openrouter"
+    batch_completion_provider: "anthropic"
+    completion_model_id: "claude-sonnet-4-20250514"
+    pricing:
+      in: 3.0
+      out: 15.0
+    release:
+      date: "2025-05-22"
+      source: "https://www.anthropic.com/news/claude-4"
+  - id: "anthropic/claude-sonnet-4:thinking-16k"
+    company: "anthropic"
+    completion_provider: "openrouter"
+    batch_completion_provider: "anthropic"
+    completion_model_id: "claude-sonnet-4-20250514"
+    pricing:
+      in: 3.0
+      out: 15.0
+    release:
+      date: "2025-05-22"
+      source: "https://www.anthropic.com/news/claude-4"
+  - id: "anthropic/claude-opus-4"
+    company: "anthropic"
+    completion_provider: "openrouter"
+    batch_completion_provider: "anthropic"
+    completion_model_id: "claude-opus-4-20250514"
+    pricing:
+      in: 15.0
+      out: 75.0
+    release:
+      date: "2025-05-22"
+      source: "https://www.anthropic.com/news/claude-4"
+  - id: "anthropic/claude-opus-4.1"
+    company: "anthropic"
+    completion_provider: "openrouter"
+    batch_completion_provider: "anthropic"
+    completion_model_id: "claude-opus-4-1"
+    pricing:
+      in: 15.0
+      out: 75.0
+    release:
+      date: "2025-08-05"
+      source: "https://www.anthropic.com/news/claude-opus-4-1"
+  - id: "anthropic/claude-opus-4:thinking-16k"
+    company: "anthropic"
+    completion_provider: "openrouter"
+    batch_completion_provider: "anthropic"
+    completion_model_id: "claude-opus-4-20250514"
+    pricing:
+      in: 15.0
+      out: 75.0
+    release:
+      date: "2025-05-22"
+      source: "https://www.anthropic.com/news/claude-4"
+  - id: "anthropic/claude-sonnet-4.5"
+    company: "anthropic"
+    completion_provider: "openrouter"
+    batch_completion_provider: "anthropic"
+    completion_model_id: "claude-sonnet-4-5-20250929"
+    pricing:
+      in: 3.0
+      out: 15.0
+    release:
+      date: "2025-09-29"
+      source: "https://www.anthropic.com/news/claude-sonnet-4-5"
+  - id: "anthropic/claude-sonnet-4.5:thinking-16k"
+    company: "anthropic"
+    completion_provider: "openrouter"
+    batch_completion_provider: "anthropic"
+    completion_model_id: "claude-sonnet-4-5-20250929"
+    pricing:
+      in: 3.0
+      out: 15.0
+    release:
+      date: "2025-09-29"
+      source: "https://www.anthropic.com/news/claude-sonnet-4-5"
+  - id: "anthropic/claude-haiku-4.5"
+    company: "anthropic"
+    completion_provider: "openrouter"
+    batch_completion_provider: "anthropic"
+    completion_model_id: "claude-haiku-4-5-20251001"
+    pricing:
+      in: 1.0
+      out: 5.0
+    release:
+      date: "2025-10-15"
+      source: "https://www.anthropic.com/news/claude-haiku-4-5"
+  - id: "anthropic/claude-haiku-4.5:thinking-16k"
+    company: "anthropic"
+    completion_provider: "openrouter"
+    batch_completion_provider: "anthropic"
+    completion_model_id: "claude-haiku-4-5-20251001"
+    pricing:
+      in: 1.0
+      out: 5.0
+    release:
+      date: "2025-10-15"
+      source: "https://www.anthropic.com/news/claude-haiku-4-5"
+  - id: "anthropic/claude-opus-4.5"
+    company: "anthropic"
+    completion_provider: "openrouter"
+    batch_completion_provider: "anthropic"
+    completion_model_id: "claude-opus-4-5-20251101"
+    pricing:
+      in: 5.0
+      out: 25.0
+    release:
+      date: "2025-11-24"
+      source: "https://www.anthropic.com/news/claude-opus-4-5"
+  - id: "anthropic/claude-opus-4.5:thinking-16k"
+    company: "anthropic"
+    completion_provider: "openrouter"
+    batch_completion_provider: "anthropic"
+    completion_model_id: "claude-opus-4-5-20251101"
+    pricing:
+      in: 5.0
+      out: 25.0
+    release:
+      date: "2025-11-24"
+      source: "https://www.anthropic.com/news/claude-opus-4-5"
+  - id: "baidu/ernie-4.5-300b-a47b"
+    company: "baidu"
+    completion_provider: "openrouter"
+    pricing:
+      in: 0.28
+      out: 1.1
+    release:
+      date: "2025-03-16"
+      source: "https://www.prnewswire.com/news-releases/baidu-unveils-ernie-4-5-and-reasoning-model-ernie-x1--makes-ernie-bot-free-ahead-of-schedule-302402490.html"
+  - id: "bytedance/seed-oss-36b-instruct"
+    company: "bytedance"
+    completion_provider: "openrouter"
+    pricing:
+      in: 0.03
+      out: 0.14
+    release:
+      date: "2025-08-20"
+      source: "https://huggingface.co/ByteDance-Seed/Seed-OSS-36B-Instruct"
+  - id: "deepseek/deepseek-chat"
+    company: "deepseek"
+    completion_provider: "openrouter"
+    pricing:
+      in: 0.28
+      out: 0.42
+    release:
+      date: "2024-12-26"
+      source: "https://api-docs.deepseek.com/news/news1226"
+  - id: "deepseek/deepseek-r1-0528"
+    company: "deepseek"
+    completion_provider: "openrouter"
+    pricing:
+      in: 0.45
+      out: 2.15
+    release:
+      date: "2025-05-28"
+      source: "https://api-docs.deepseek.com/news/news250528"
+  - id: "deepseek/deepseek-chat-v3.1"
+    company: "deepseek"
+    completion_provider: "openrouter"
+    pricing:
+      in: 0.2
+      out: 0.8
+    release:
+      date: "2025-08-21"
+      source: "https://api-docs.deepseek.com/news/news250821"
+  - id: "deepseek/deepseek-v3.2"
+    company: "deepseek"
+    completion_provider: "openrouter"
+    pricing:
+      in: 0.28
+      out: 0.42
+    release:
+      date: "2025-12-01"
+      source: "https://api-docs.deepseek.com/news/news251201"
+  - id: "deepseek/deepseek-v3.2:thinking"
+    company: "deepseek"
+    completion_provider: "openrouter"
+    pricing:
+      in: 0.28
+      out: 0.42
+    release:
+      date: "2025-12-01"
+      source: "https://api-docs.deepseek.com/news/news251201"
+  - id: "deepseek/deepseek-v3.2-speciale:thinking"
+    company: "deepseek"
+    completion_provider: "openrouter"
+    pricing:
+      in: 0.27
+      out: 0.41
+    release:
+      date: "2025-12-01"
+      source: "https://api-docs.deepseek.com/news/news251201"
+  - id: "zenmux/deepseek-v4-pro"
+    company: "deepseek"
+    completion_provider: "zenmux"
+    completion_model_id: "deepseek/deepseek-v4-pro:deepseek"
+    pricing:
+      in: 0.435
+      out: 0.87
+    release:
+      date: "2026-04-23"
+      source: "https://api-docs.deepseek.com/quick_start/pricing"
+  - id: "zenmux/deepseek-v4-pro:thinking-high"
+    company: "deepseek"
+    completion_provider: "zenmux"
+    completion_model_id: "deepseek/deepseek-v4-pro:deepseek"
+    pricing:
+      in: 0.435
+      out: 0.87
+    release:
+      date: "2026-04-23"
+      source: "https://api-docs.deepseek.com/quick_start/pricing"
+  - id: "zenmux/deepseek-v4-flash"
+    company: "deepseek"
+    completion_provider: "zenmux"
+    completion_model_id: "deepseek/deepseek-v4-flash:deepseek"
+    pricing:
+      in: 0.14
+      out: 0.28
+    release:
+      date: "2026-04-23"
+      source: "https://api-docs.deepseek.com/quick_start/pricing"
+  - id: "zenmux/deepseek-v4-flash:thinking-high"
+    company: "deepseek"
+    completion_provider: "zenmux"
+    completion_model_id: "deepseek/deepseek-v4-flash:deepseek"
+    pricing:
+      in: 0.14
+      out: 0.28
+    release:
+      date: "2026-04-23"
+      source: "https://api-docs.deepseek.com/quick_start/pricing"
+  - id: "google/gemini-flash-1.5-8b"
+    company: "google"
+    completion_provider: "openrouter"
+    batch_completion_provider: "google"
+    completion_model_id: "gemini-flash-1.5-8b"
+    pricing:
+      in: 0.0375
+      out: 0.15
+    release:
+      date: "2024-10-03"
+      source: "https://developers.googleblog.com/en/gemini-15-flash-8b-is-now-generally-available-for-use/"
+  - id: "google/gemini-flash-1.5"
+    company: "google"
+    completion_provider: "openrouter"
+    batch_completion_provider: "google"
+    completion_model_id: "gemini-flash-1.5"
+    pricing:
+      in: 0.075
+      out: 0.3
+    release:
+      date: "2024-05-14"
+      source: "https://blog.google/technology/developers/gemini-gemma-developer-updates-may-2024/"
+  - id: "google/gemini-pro-1.5"
+    company: "google"
+    completion_provider: "openrouter"
+    batch_completion_provider: "google"
+    completion_model_id: "gemini-pro-1.5"
+    pricing:
+      in: 1.25
+      out: 5.0
+    release:
+      date: "2024-02-15"
+      source: "https://blog.google/innovation-and-ai/products/google-gemini-next-generation-model-february-2024/"
+  - id: "google/gemini-2.0-flash-lite-001"
+    company: "google"
+    completion_provider: "openrouter"
+    batch_completion_provider: "google"
+    completion_model_id: "gemini-2.0-flash-lite"
+    pricing:
+      in: 0.075
+      out: 0.3
+    release:
+      date: "2025-02-25"
+      source: "https://developers.googleblog.com/start-building-with-the-gemini-2-0-flash-family/"
+  - id: "google/gemini-2.0-flash-001"
+    company: "google"
+    completion_provider: "openrouter"
+    batch_completion_provider: "google"
+    completion_model_id: "gemini-2.0-flash"
+    pricing:
+      in: 0.1
+      out: 0.4
+    release:
+      date: "2025-02-05"
+      source: "https://blog.google/technology/google-deepmind/gemini-model-updates-february-2025/"
+  - id: "google/gemini-2.5-flash-lite"
+    company: "google"
+    completion_provider: "openrouter"
+    batch_completion_provider: "google"
+    completion_model_id: "gemini-2.5-flash-lite"
+    pricing:
+      in: 0.1
+      out: 0.4
+    release:
+      date: "2025-07-22"
+      source: "https://developers.googleblog.com/es/gemini-25-flash-lite-is-now-stable-and-generally-available/"
+  - id: "google/gemini-2.5-flash-lite:thinking-16k"
+    company: "google"
+    completion_provider: "openrouter"
+    batch_completion_provider: "google"
+    completion_model_id: "gemini-2.5-flash-lite"
+    pricing:
+      in: 0.1
+      out: 0.4
+    release:
+      date: "2025-07-22"
+      source: "https://developers.googleblog.com/es/gemini-25-flash-lite-is-now-stable-and-generally-available/"
+  - id: "google/gemini-2.5-flash"
+    company: "google"
+    completion_provider: "openrouter"
+    batch_completion_provider: "google"
+    completion_model_id: "gemini-2.5-flash"
+    pricing:
+      in: 0.3
+      out: 2.5
+    release:
+      date: "2025-06-17"
+      source: "https://cloud.google.com/blog/products/ai-machine-learning/gemini-2-5-flash-lite-flash-pro-ga-vertex-ai"
+  - id: "google/gemini-2.5-flash:thinking-16k"
+    company: "google"
+    completion_provider: "openrouter"
+    batch_completion_provider: "google"
+    completion_model_id: "gemini-2.5-flash"
+    pricing:
+      in: 0.3
+      out: 2.5
+    release:
+      date: "2025-06-17"
+      source: "https://cloud.google.com/blog/products/ai-machine-learning/gemini-2-5-flash-lite-flash-pro-ga-vertex-ai"
+  - id: "google/gemini-2.5-pro:thinking-16k"
+    company: "google"
+    completion_provider: "openrouter"
+    batch_completion_provider: "google"
+    completion_model_id: "gemini-2.5-pro"
+    pricing:
+      in: 1.25
+      out: 10.0
+    release:
+      date: "2025-06-17"
+      source: "https://cloud.google.com/blog/products/ai-machine-learning/gemini-2-5-flash-lite-flash-pro-ga-vertex-ai"
+  - id: "google/gemma-3-4b-it"
+    company: "google"
+    completion_provider: "openrouter"
+    batch_completion_provider: "google"
+    completion_model_id: "gemma-3-4b-it"
+    pricing:
+      in: 0.04
+      out: 0.08
+    release:
+      date: "2025-03-12"
+      source: "https://blog.google/technology/developers/gemma-3/"
+  - id: "google/gemma-3-12b-it"
+    company: "google"
+    completion_provider: "openrouter"
+    batch_completion_provider: "google"
+    completion_model_id: "gemma-3-12b-it"
+    pricing:
+      in: 0.04
+      out: 0.13
+    release:
+      date: "2025-03-12"
+      source: "https://blog.google/technology/developers/gemma-3/"
+  - id: "google/gemma-3-27b-it"
+    company: "google"
+    completion_provider: "openrouter"
+    batch_completion_provider: "google"
+    completion_model_id: "gemma-3-27b-it"
+    pricing:
+      in: 0.08
+      out: 0.16
+    release:
+      date: "2025-03-12"
+      source: "https://blog.google/technology/developers/gemma-3/"
+  - id: "meta-llama/llama-3.2-1b-instruct"
+    company: "meta-llama"
+    completion_provider: "openrouter"
+    pricing:
+      in: 0.027
+      out: 0.2
+    release:
+      date: "2024-09-25"
+      source: "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/"
+  - id: "meta-llama/llama-3.2-3b-instruct"
+    company: "meta-llama"
+    completion_provider: "openrouter"
+    pricing:
+      in: 0.051
+      out: 0.34
+    release:
+      date: "2024-09-25"
+      source: "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/"
+  - id: "meta-llama/llama-3.1-8b-instruct"
+    company: "meta-llama"
+    completion_provider: "openrouter"
+    pricing:
+      in: 0.02
+      out: 0.05
+    release:
+      date: "2024-07-23"
+      source: "https://ai.meta.com/blog/meta-llama-3-1/"
+  - id: "meta-llama/llama-3.1-70b-instruct"
+    company: "meta-llama"
+    completion_provider: "openrouter"
+    pricing:
+      in: 0.4
+      out: 0.4
+    release:
+      date: "2024-07-23"
+      source: "https://ai.meta.com/blog/meta-llama-3-1/"
+  - id: "meta-llama/llama-3.1-405b-instruct"
+    company: "meta-llama"
+    completion_provider: "openrouter"
+    pricing:
+      in: 4.0
+      out: 4.0
+    release:
+      date: "2024-07-23"
+      source: "https://ai.meta.com/blog/meta-llama-3-1/"
+  - id: "meta-llama/llama-4-scout"
+    company: "meta-llama"
+    completion_provider: "openrouter"
+    pricing:
+      in: 0.08
+      out: 0.3
+    release:
+      date: "2025-04-05"
+      source: "https://ai.meta.com/blog/llama-4-multimodal-intelligence/"
+  - id: "meta-llama/llama-4-maverick"
+    company: "meta-llama"
+    completion_provider: "openrouter"
+    pricing:
+      in: 0.15
+      out: 0.6
+    release:
+      date: "2025-04-05"
+      source: "https://ai.meta.com/blog/llama-4-multimodal-intelligence/"
+  - id: "moonshotai/kimi-k2-0905"
+    company: "moonshotai"
+    completion_provider: "moonshotai"
+    completion_model_id: "kimi-k2-0905-preview"
+    pricing:
+      in: 0.6
+      out: 2.5
+    release:
+      date: "2025-09-05"
+      source: "https://openrouter.ai/moonshotai/kimi-k2-0905"
+  - id: "moonshotai/kimi-k2:thinking"
+    company: "moonshotai"
+    completion_provider: "moonshotai"
+    completion_model_id: "kimi-k2-thinking"
+    pricing:
+      in: 0.6
+      out: 2.5
+    release:
+      date: "2025-11-06"
+      source: "https://openrouter.ai/moonshotai/kimi-k2-thinking"
+  - id: "moonshotai/kimi-k2-thinking"
+    listed: false
+    company: "moonshotai"
+    completion_provider: "moonshotai"
+    completion_model_id: "kimi-k2-thinking"
+    pricing:
+      in: 0.47
+      out: 2.0
+    release:
+      date: "2025-11-06"
+      source: "https://openrouter.ai/moonshotai/kimi-k2-thinking"
+  - id: "mistralai/mistral-nemo"
+    company: "mistralai"
+    completion_provider: "openrouter"
+    pricing:
+      in: 0.02
+      out: 0.04
+    release:
+      date: "2024-07-18"
+      source: "https://mistral.ai/news/mistral-nemo/"
+  - id: "mistralai/mistral-small-3.2-24b-instruct"
+    company: "mistralai"
+    completion_provider: "openrouter"
+    pricing:
+      in: 0.075
+      out: 0.2
+    release:
+      date: "2025-06-20"
+      source: "https://docs.mistral.ai/models/mistral-small-3-2-25-06"
+  - id: "mistralai/mistral-medium-3"
+    company: "mistralai"
+    completion_provider: "openrouter"
+    pricing:
+      in: 0.4
+      out: 2.0
+    release:
+      date: "2025-05-07"
+      source: "https://mistral.ai/news/mistral-medium-3"
+  - id: "mistralai/mistral-large-2411"
+    company: "mistralai"
+    completion_provider: "openrouter"
+    pricing:
+      in: 2.0
+      out: 6.0
+    release:
+      date: "2024-11-18"
+      source: "https://docs.mistral.ai/models/mistral-large-2-1-24-11"
+  - id: "mistralai/devstral-small"
+    company: "mistralai"
+    completion_provider: "openrouter"
+    pricing:
+      in: 0.1
+      out: 0.3
+    release:
+      date: "2025-05-21"
+      source: "https://mistral.ai/news/devstral/"
+  - id: "mistralai/devstral-medium"
+    company: "mistralai"
+    completion_provider: "openrouter"
+    pricing:
+      in: 0.4
+      out: 2.0
+    release:
+      date: "2025-07-10"
+      source: "https://mistral.ai/news/devstral-2507"
+  - id: "mistralai/codestral-2508"
+    company: "mistralai"
+    completion_provider: "openrouter"
+    pricing:
+      in: 0.3
+      out: 0.9
+    release:
+      date: "2025-07-30"
+      source: "https://mistral.ai/news/codestral-25-08"
+  - id: "mistralai/ministral-3b-2512"
+    company: "mistralai"
+    completion_provider: "openrouter"
+    pricing:
+      in: 0.1
+      out: 0.1
+    release:
+      date: "2025-12-02"
+      source: "https://docs.mistral.ai/models/ministral-3-3b-25-12"
+  - id: "mistralai/ministral-8b-2512"
+    company: "mistralai"
+    completion_provider: "openrouter"
+    pricing:
+      in: 0.15
+      out: 0.15
+    release:
+      date: "2025-12-02"
+      source: "https://docs.mistral.ai/models/ministral-3-8b-25-12"
+  - id: "mistralai/ministral-14b-2512"
+    company: "mistralai"
+    completion_provider: "openrouter"
+    pricing:
+      in: 0.2
+      out: 0.2
+    release:
+      date: "2025-12-02"
+      source: "https://docs.mistral.ai/models/ministral-3-14b-25-12"
+  - id: "minimax/minimax-m1"
+    company: "minimax"
+    completion_provider: "openrouter"
+    pricing:
+      in: 0.4
+      out: 2.2
+    release:
+      date: "2025-06-17"
+      source: "https://openrouter.ai/minimax/minimax-m1"
+  - id: "openai/gpt-4.1-nano"
+    company: "openai"
+    completion_provider: "openrouter"
+    batch_completion_provider: "openai"
+    completion_model_id: "gpt-4.1-nano-2025-04-14"
+    pricing:
+      in: 0.1
+      out: 0.4
+    release:
+      date: "2025-04-14"
+      source: "https://openai.com/index/gpt-4-1-available-now/"
+  - id: "openai/gpt-4.1-mini"
+    company: "openai"
+    completion_provider: "openrouter"
+    batch_completion_provider: "openai"
+    completion_model_id: "gpt-4.1-mini-2025-04-14"
+    pricing:
+      in: 0.4
+      out: 1.6
+    release:
+      date: "2025-04-14"
+      source: "https://openai.com/index/gpt-4-1-available-now/"
+  - id: "openai/gpt-4.1"
+    company: "openai"
+    completion_provider: "openrouter"
+    batch_completion_provider: "openai"
+    completion_model_id: "gpt-4.1-2025-04-14"
+    pricing:
+      in: 2.0
+      out: 8.0
+    release:
+      date: "2025-04-14"
+      source: "https://openai.com/index/gpt-4-1-available-now/"
+  - id: "openai/gpt-4o-mini"
+    company: "openai"
+    completion_provider: "openrouter"
+    batch_completion_provider: "openai"
+    completion_model_id: "gpt-4o-mini-2024-07-18"
+    pricing:
+      in: 0.15
+      out: 0.6
+    release:
+      date: "2024-07-18"
+      source: "https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence/"
+  - id: "openai/chatgpt-4o-latest"
+    company: "openai"
+    completion_provider: "openrouter"
+    batch_completion_provider: "openai"
+    completion_model_id: "chatgpt-4o-latest"
+    pricing:
+      in: 5.0
+      out: 15.0
+    release:
+      date: "2024-08-06"
+      source: "https://platform.openai.com/docs/models/gpt-4o"
+  - id: "openai/gpt-3.5-turbo-0613"
+    company: "openai"
+    completion_provider: "openrouter"
+    batch_completion_provider: "openai"
+    completion_model_id: "gpt-3.5-turbo-0613"
+    pricing:
+      in: 1.5
+      out: 2.0
+    release:
+      date: "2023-06-13"
+      source: "https://openai.com/blog/function-calling-and-other-api-updates"
+  - id: "openai/gpt-4-turbo"
+    company: "openai"
+    completion_provider: "openrouter"
+    batch_completion_provider: "openai"
+    completion_model_id: "gpt-4-turbo-2024-04-09"
+    pricing:
+      in: 10.0
+      out: 30.0
+    release:
+      date: "2024-04-09"
+      source: "https://openai.com/blog/gpt-4-turbo-generally-available"
+  - id: "openai/o1:thinking-medium"
+    company: "openai"
+    completion_provider: "openrouter"
+    batch_completion_provider: "openai"
+    completion_model_id: "o1-2024-12-17"
+    pricing:
+      in: 15.0
+      out: 60.0
+    release:
+      date: "2024-12-05"
+      source: "https://openai.com/index/o1/"
+  - id: "openai/o1-mini"
+    company: "openai"
+    completion_provider: "openrouter"
+    batch_completion_provider: "openai"
+    completion_model_id: "o1-mini-2024-09-12"
+    pricing:
+      in: 1.1
+      out: 4.4
+    release:
+      date: "2024-09-12"
+      source: "https://openai.com/index/openai-o1-mini-advancing-cost-efficient-reasoning/"
+  - id: "openai/o3-mini"
+    company: "openai"
+    completion_provider: "openrouter"
+    batch_completion_provider: "openai"
+    completion_model_id: "o3-mini-2025-01-31"
+    pricing:
+      in: 1.1
+      out: 4.4
+    release:
+      date: "2025-01-31"
+      source: "https://openai.com/index/o3-mini/"
+  - id: "openai/o3:thinking-medium"
+    company: "openai"
+    completion_provider: "openrouter"
+    batch_completion_provider: "openai"
+    completion_model_id: "o3-2025-04-16"
+    pricing:
+      in: 2.0
+      out: 8.0
+    release:
+      date: "2025-04-16"
+      source: "https://openai.com/index/o3-release/"
+  - id: "openai/o4-mini"
+    company: "openai"
+    completion_provider: "openrouter"
+    batch_completion_provider: "openai"
+    completion_model_id: "o4-mini-2025-04-16"
+    pricing:
+      in: 1.1
+      out: 4.4
+    release:
+      date: "2025-04-16"
+      source: "https://openai.com/index/o3-release/"
+  - id: "openai/gpt-5"
+    company: "openai"
+    completion_provider: "openrouter"
+    batch_completion_provider: "openai"
+    completion_model_id: "gpt-5"
+    pricing:
+      in: 1.25
+      out: 10.0
+    release:
+      date: "2025-08-07"
+      source: "https://openai.com/index/introducing-gpt-5/"
+  - id: "openai/gpt-5-mini"
+    company: "openai"
+    completion_provider: "openrouter"
+    batch_completion_provider: "openai"
+    completion_model_id: "gpt-5-mini"
+    pricing:
+      in: 0.25
+      out: 2.0
+    release:
+      date: "2025-08-07"
+      source: "https://openai.com/index/introducing-gpt-5/"
+  - id: "openai/gpt-5-nano"
+    company: "openai"
+    completion_provider: "openrouter"
+    batch_completion_provider: "openai"
+    completion_model_id: "gpt-5-nano"
+    pricing:
+      in: 0.05
+      out: 0.4
+    release:
+      date: "2025-08-07"
+      source: "https://openai.com/index/introducing-gpt-5/"
+  - id: "openai/gpt-oss-20b"
+    company: "openai"
+    completion_provider: "openrouter"
+    pricing:
+      in: 0.03
+      out: 0.11
+    release:
+      date: "2025-08-05"
+      source: "https://openai.com/index/introducing-gpt-oss"
+  - id: "openai/gpt-oss-120b"
+    company: "openai"
+    completion_provider: "openrouter"
+    pricing:
+      in: 0.039
+      out: 0.19
+    release:
+      date: "2025-08-05"
+      source: "https://openai.com/index/introducing-gpt-oss"
+  - id: "openai/gpt-5.2:thinking-medium"
+    company: "openai"
+    completion_provider: "openrouter"
+    batch_completion_provider: "openai"
+    completion_model_id: "gpt-5.2"
+    pricing:
+      in: 1.75
+      out: 14.0
+    release:
+      date: "2025-12-10"
+      source: "https://openrouter.ai/openai/gpt-5.2"
+  - id: "openai/gpt-5.4-mini:thinking-none"
+    company: "openai"
+    completion_provider: "openrouter"
+    batch_completion_provider: "openai"
+    completion_model_id: "gpt-5.4-mini"
+    pricing:
+      in: 0.75
+      out: 4.5
+    release:
+      date: "2026-03-17"
+      source: "https://openrouter.ai/openai/gpt-5.4-mini"
+  - id: "openai/gpt-5.4-mini:thinking-minimal"
+    company: "openai"
+    completion_provider: "openrouter"
+    batch_completion_provider: "openai"
+    completion_model_id: "gpt-5.4-mini"
+    pricing:
+      in: 0.75
+      out: 4.5
+    release:
+      date: "2026-03-17"
+      source: "https://openrouter.ai/openai/gpt-5.4-mini"
+  - id: "openai/gpt-5.4-mini:thinking-low"
+    company: "openai"
+    completion_provider: "openrouter"
+    batch_completion_provider: "openai"
+    completion_model_id: "gpt-5.4-mini"
+    pricing:
+      in: 0.75
+      out: 4.5
+    release:
+      date: "2026-03-17"
+      source: "https://openrouter.ai/openai/gpt-5.4-mini"
+  - id: "openai/gpt-5.4-mini:thinking-medium"
+    company: "openai"
+    completion_provider: "openrouter"
+    batch_completion_provider: "openai"
+    completion_model_id: "gpt-5.4-mini"
+    pricing:
+      in: 0.75
+      out: 4.5
+    release:
+      date: "2026-03-17"
+      source: "https://openrouter.ai/openai/gpt-5.4-mini"
+  - id: "openai/gpt-5.4-mini:thinking-high"
+    company: "openai"
+    completion_provider: "openrouter"
+    batch_completion_provider: "openai"
+    completion_model_id: "gpt-5.4-mini"
+    pricing:
+      in: 0.75
+      out: 4.5
+    release:
+      date: "2026-03-17"
+      source: "https://openrouter.ai/openai/gpt-5.4-mini"
+  - id: "openai/gpt-5.4-mini:thinking-xhigh"
+    company: "openai"
+    completion_provider: "openrouter"
+    batch_completion_provider: "openai"
+    completion_model_id: "gpt-5.4-mini"
+    pricing:
+      in: 0.75
+      out: 4.5
+    release:
+      date: "2026-03-17"
+      source: "https://openrouter.ai/openai/gpt-5.4-mini"
+  - id: "openai/gpt-5.4-nano:thinking-none"
+    company: "openai"
+    completion_provider: "openrouter"
+    batch_completion_provider: "openai"
+    completion_model_id: "gpt-5.4-nano"
+    pricing:
+      in: 0.2
+      out: 1.25
+    release:
+      date: "2026-03-17"
+      source: "https://openrouter.ai/openai/gpt-5.4-nano"
+  - id: "openai/gpt-5.4-nano:thinking-medium"
+    company: "openai"
+    completion_provider: "openrouter"
+    batch_completion_provider: "openai"
+    completion_model_id: "gpt-5.4-nano"
+    pricing:
+      in: 0.2
+      out: 1.25
+    release:
+      date: "2026-03-17"
+      source: "https://openrouter.ai/openai/gpt-5.4-nano"
+  - id: "openai/gpt-5.4:thinking-none"
+    company: "openai"
+    completion_provider: "openrouter"
+    batch_completion_provider: "openai"
+    completion_model_id: "gpt-5.4"
+    pricing:
+      in: 2.5
+      out: 15.0
+    release:
+      date: "2026-03-05"
+      source: "https://openrouter.ai/openai/gpt-5.4"
+  - id: "openai/gpt-5.4:thinking-medium"
+    company: "openai"
+    completion_provider: "openrouter"
+    batch_completion_provider: "openai"
+    completion_model_id: "gpt-5.4"
+    pricing:
+      in: 2.5
+      out: 15.0
+    release:
+      date: "2026-03-05"
+      source: "https://openrouter.ai/openai/gpt-5.4"
+  - id: "qwen/qwen3-14b"
+    company: "qwen"
+    completion_provider: "openrouter"
+    pricing:
+      in: 0.06
+      out: 0.2
+    release:
+      date: "2025-04-29"
+      source: "https://qwenlm.github.io/blog/qwen3/"
+  - id: "qwen/qwen3-32b"
+    company: "qwen"
+    completion_provider: "openrouter"
+    pricing:
+      in: 0.15
+      out: 0.6
+    release:
+      date: "2025-04-29"
+      source: "https://qwenlm.github.io/blog/qwen3/"
+  - id: "qwen/qwen3-30b-a3b"
+    company: "qwen"
+    completion_provider: "openrouter"
+    pricing:
+      in: 0.08
+      out: 0.33
+    release:
+      date: "2025-04-29"
+      source: "https://qwenlm.github.io/blog/qwen3/"
+  - id: "qwen/qwen3-235b-a22b"
+    company: "qwen"
+    completion_provider: "openrouter"
+    pricing:
+      in: 0.22
+      out: 0.88
+    release:
+      date: "2025-04-29"
+      source: "https://qwenlm.github.io/blog/qwen3/"
+  - id: "qwen/qwen3-235b-a22b-thinking-2507"
+    company: "qwen"
+    completion_provider: "openrouter"
+    pricing:
+      in: 0.22
+      out: 0.88
+    release:
+      date: "2025-07-21"
+      source: "https://huggingface.co/Qwen/Qwen3-235B-A22B-Instruct-2507"
+  - id: "qwen/qwen3-coder"
+    company: "qwen"
+    completion_provider: "openrouter"
+    pricing:
+      in: 0.12
+      out: 0.75
+    release:
+      date: "2025-07-22"
+      source: "https://qwenlm.github.io/blog/qwen3-coder/"
+  - id: "qwen/qwen3-coder-flash"
+    company: "qwen"
+    completion_provider: "openrouter"
+    pricing:
+      in: 0.195
+      out: 0.975
+    release:
+      date: "2025-09-17"
+      source: "https://openrouter.ai/qwen/qwen3-coder-flash"
+  - id: "qwen/qwen3-coder-plus"
+    company: "qwen"
+    completion_provider: "openrouter"
+    pricing:
+      in: 0.65
+      out: 3.25
+    release:
+      date: "2025-09-23"
+      source: "https://openrouter.ai/qwen/qwen3-coder-plus"
+  - id: "qwen/qwen3-next-80b-a3b-thinking"
+    company: "qwen"
+    completion_provider: "openrouter"
+    pricing:
+      in: 0.15
+      out: 1.2
+    release:
+      date: "2025-09-11"
+      source: "https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Instruct"
+  - id: "qwen/qwen3-next-80b-a3b-instruct"
+    company: "qwen"
+    completion_provider: "openrouter"
+    pricing:
+      in: 0.15
+      out: 1.2
+    release:
+      date: "2025-09-11"
+      source: "https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Instruct"
+  - id: "qwen/qwen-plus-2025-07-28"
+    company: "qwen"
+    completion_provider: "openrouter"
+    release:
+      date: "2025-07-28"
+      source: "https://www.alibabacloud.com/en/notice/model_studio_update_of_qwenplus_585?_p_lc=1"
+  - id: "qwen/qwen3-max"
+    company: "qwen"
+    completion_provider: "openrouter"
+    release:
+      date: "2025-09-23"
+      source: "https://openrouter.ai/qwen/qwen3-max"
+  - id: "x-ai/grok-3-mini:thinking-medium"
+    company: "x-ai"
+    completion_provider: "openrouter"
+    pricing:
+      in: 0.3
+      out: 0.5
+    release:
+      date: "2025-02-18"
+      source: "https://x.ai/news/grok-3"
+  - id: "x-ai/grok-3"
+    company: "x-ai"
+    completion_provider: "openrouter"
+    pricing:
+      in: 3.0
+      out: 15.0
+    release:
+      date: "2025-02-18"
+      source: "https://x.ai/news/grok-3"
+  - id: "x-ai/grok-4:thinking-medium"
+    company: "x-ai"
+    completion_provider: "openrouter"
+    pricing:
+      in: 3.0
+      out: 15.0
+    release:
+      date: "2025-07-09"
+      source: "https://x.ai/blog/grok-4"
+  - id: "x-ai/grok-4-fast:free"
+    company: "x-ai"
+    completion_provider: "openrouter"
+    pricing:
+      in: 0.0
+      out: 0.0
+    release:
+      date: "2025-11-19"
+      source: "https://x.ai/news/grok-4-1-fast/"
+  - id: "openrouter/horizon-beta"
+    company: "openrouter"
+    completion_provider: "openrouter"
+    pricing:
+      in: 0.0
+      out: 0.0
+    release:
+      date: "2025-08-01"
+      source: "https://openrouter.ai/openrouter/horizon-beta"
+  - id: "z-ai/glm-4.5-air"
+    company: "z-ai"
+    completion_provider: "z-ai"
+    completion_model_id: "glm-4.5-air"
+    pricing:
+      in: 0.2
+      out: 1.1
+    release:
+      date: "2025-07-25"
+      source: "https://openrouter.ai/z-ai/glm-4.5-air"
+  - id: "z-ai/glm-4.5-air:thinking"
+    company: "z-ai"
+    completion_provider: "z-ai"
+    completion_model_id: "glm-4.5-air"
+    pricing:
+      in: 0.2
+      out: 1.1
+    release:
+      date: "2025-07-25"
+      source: "https://openrouter.ai/z-ai/glm-4.5-air"
+  - id: "z-ai/glm-4.5"
+    company: "z-ai"
+    completion_provider: "z-ai"
+    completion_model_id: "glm-4.5"
+    pricing:
+      in: 0.6
+      out: 2.2
+    release:
+      date: "2025-07-25"
+      source: "https://openrouter.ai/z-ai/glm-4.5"
+  - id: "z-ai/glm-4.5:thinking"
+    company: "z-ai"
+    completion_provider: "z-ai"
+    completion_model_id: "glm-4.5"
+    pricing:
+      in: 0.6
+      out: 2.2
+    release:
+      date: "2025-07-25"
+      source: "https://openrouter.ai/z-ai/glm-4.5"
+  - id: "z-ai/glm-4.6"
+    company: "z-ai"
+    completion_provider: "z-ai"
+    completion_model_id: "glm-4.6"
+    pricing:
+      in: 0.6
+      out: 2.2
+    release:
+      date: "2025-09-30"
+      source: "https://openrouter.ai/z-ai/glm-4.6"
+  - id: "z-ai/glm-4.6:thinking"
+    company: "z-ai"
+    completion_provider: "z-ai"
+    completion_model_id: "glm-4.6"
+    pricing:
+      in: 0.6
+      out: 2.2
+    release:
+      date: "2025-09-30"
+      source: "https://openrouter.ai/z-ai/glm-4.6"
+  - id: "openrouter/polaris-alpha"
+    company: "openrouter"
+    completion_provider: "openrouter"
+    pricing:
+      in: 0.09
+      out: 0.3
+    release:
+      date: "2025-11-06"
+      source: "https://openrouter.ai/openrouter/polaris-alpha"
+  - id: "openrouter/sherlock-dash-alpha"
+    company: "openrouter"
+    completion_provider: "openrouter"
+    pricing:
+      in: 0.005
+      out: 0.0
+    release:
+      date: "2025-11-15"
+      source: "https://openrouter.ai/openrouter/sherlock-dash-alpha"
+  - id: "openrouter/sherlock-think-alpha"
+    company: "openrouter"
+    completion_provider: "openrouter"
+    pricing:
+      in: 0.005
+      out: 0.0
+    release:
+      date: "2025-11-15"
+      source: "https://openrouter.ai/openrouter/sherlock-think-alpha"
+  - id: "google/gemini-3-pro-preview"
+    company: "google"
+    completion_provider: "google"
+    batch_completion_provider: "google"
+    completion_model_id: "gemini-3-pro-preview"
+    pricing:
+      in: 2.0
+      out: 12.0
+    release:
+      date: "2025-11-18"
+      source: "https://blog.google/products/gemini/gemini-3/"
+  - id: "google/gemini-3-flash-preview"
+    company: "google"
+    completion_provider: "google"
+    batch_completion_provider: "google"
+    completion_model_id: "gemini-3-flash-preview"
+    pricing:
+      in: 0.15
+      out: 0.6
+    release:
+      date: "2025-12-17"
+      source: "https://blog.google/products/gemini/gemini-3-flash/"
+  - id: "allenai/olmo-3-32b-think"
+    company: "allenai"
+    completion_provider: "openrouter"
+    pricing:
+      in: 0.15
+      out: 0.5
+    release:
+      date: "2025-11-20"
+      source: "https://allenai.org/blog/olmo3"
+  - id: "x-ai/grok-4.20-beta:thinking"
+    company: "x-ai"
+    completion_provider: "openrouter"
+    pricing:
+      in: 2.0
+      out: 6.0
+    release:
+      date: "2026-03-12"
+      source: "https://openrouter.ai/x-ai/grok-4.20-beta"
+  - id: "x-ai/grok-4.1-fast"
+    company: "x-ai"
+    completion_provider: "openrouter"
+    pricing:
+      in: 0.2
+      out: 0.5
+    release:
+      date: "2025-11-19"
+      source: "https://x.ai/news/grok-4-1-fast/"
+  - id: "x-ai/grok-4.1-fast:thinking"
+    company: "x-ai"
+    completion_provider: "openrouter"
+    pricing:
+      in: 0.2
+      out: 0.5
+    release:
+      date: "2025-11-19"
+      source: "https://x.ai/news/grok-4-1-fast/"
+  - id: "x-ai/grok-4.1-fast:free"
+    company: "x-ai"
+    completion_provider: "openrouter"
+    pricing:
+      in: 0.0
+      out: 0.0
+    release:
+      date: "2025-11-19"
+      source: "https://x.ai/news/grok-4-1-fast/"
+  - id: "prime-intellect/intellect-3"
+    company: "prime-intellect"
+    completion_provider: "openrouter"
+    pricing:
+      in: 0.2
+      out: 1.1
+    release:
+      date: "2025-11-26"
+      source: "https://www.primeintellect.ai/blog/intellect-3"
+  - id: "Qwen/Qwen3-0.6B-FP8"
+    company: "qwen"
+    completion_provider: "openrouter"
+    pricing:
+      in: 0.2
+      out: 0.2
+    release:
+      date: "2025-04-29"
+      source: "https://qwenlm.github.io/blog/qwen3/"
+  - id: "Qwen/Qwen3-1.7B-FP8"
+    company: "qwen"
+    completion_provider: "openrouter"
+    pricing:
+      in: 0.2
+      out: 0.2
+    release:
+      date: "2025-04-29"
+      source: "https://qwenlm.github.io/blog/qwen3/"
+  - id: "Qwen/Qwen3-4B-FP8"
+    company: "qwen"
+    completion_provider: "openrouter"
+    pricing:
+      in: 0.2
+      out: 0.2
+    release:
+      date: "2025-04-29"
+      source: "https://qwenlm.github.io/blog/qwen3/"
+  - id: "Qwen/Qwen3-8B-FP8"
+    company: "qwen"
+    completion_provider: "openrouter"
+    pricing:
+      in: 0.05
+      out: 0.2
+    release:
+      date: "2025-04-29"
+      source: "https://qwenlm.github.io/blog/qwen3/"
+  - id: "Qwen/Qwen3-14B-FP8"
+    company: "qwen"
+    completion_provider: "openrouter"
+    release:
+      date: "2025-04-29"
+      source: "https://qwenlm.github.io/blog/qwen3/"
+  - id: "Qwen/Qwen3-0.6B-FP8:thinking-16k"
+    company: "qwen"
+    completion_provider: "openrouter"
+    release:
+      date: "2025-04-29"
+      source: "https://qwenlm.github.io/blog/qwen3/"
+  - id: "Qwen/Qwen3-1.7B-FP8:thinking-16k"
+    company: "qwen"
+    completion_provider: "openrouter"
+    release:
+      date: "2025-04-29"
+      source: "https://qwenlm.github.io/blog/qwen3/"
+  - id: "Qwen/Qwen3-4B-FP8:thinking-16k"
+    company: "qwen"
+    completion_provider: "openrouter"
+    release:
+      date: "2025-04-29"
+      source: "https://qwenlm.github.io/blog/qwen3/"
+  - id: "google/gemini-3.0-pro"
+    listed: false
+    company: "google"
+    completion_provider: "google"
+    batch_completion_provider: "google"
+    completion_model_id: "gemini-3.0-pro"
+    pricing:
+      in: 2.0
+      out: 12.0
+    release:
+      date: "2025-11-18"
+      source: "https://blog.google/products/gemini/gemini-3/"
+  - id: "qwen/qwen3-30b-a3b-instruct-2507"
+    listed: false
+    company: "qwen"
+    completion_provider: "openrouter"
+    pricing:
+      in: 0.08
+      out: 0.33
+    release:
+      date: "2025-07-28"
+      source: "https://huggingface.co/Qwen/Qwen3-30B-A3B-Instruct-2507"
+  - id: "qwen/qwen3-235b-a22b-2507"
+    listed: false
+    company: "qwen"
+    completion_provider: "openrouter"
+    pricing:
+      in: 0.08
+      out: 0.55
+    release:
+      date: "2025-07-21"
+      source: "https://huggingface.co/Qwen/Qwen3-235B-A22B-Instruct-2507"
+  - id: "qwen/qwen3.5-27b:thinking"
+    company: "qwen"
+    completion_provider: "openrouter"
+    pricing:
+      in: 0.1
+      out: 0.3
+    release:
+      date: "2026-02-24"
+      source: "https://openrouter.ai/qwen/qwen3.5-27b"
+  - id: "qwen/qwen3.5-35b-a3b:thinking"
+    company: "qwen"
+    completion_provider: "openrouter"
+    pricing:
+      in: 0.1
+      out: 0.3
+    release:
+      date: "2026-02-24"
+      source: "https://openrouter.ai/qwen/qwen3.5-35b-a3b"
+  - id: "qwen/qwen3.5-122b-a10b:thinking"
+    company: "qwen"
+    completion_provider: "openrouter"
+    pricing:
+      in: 0.22
+      out: 0.88
+    release:
+      date: "2026-02-24"
+      source: "https://openrouter.ai/qwen/qwen3.5-122b-a10b"
+  - id: "qwen/qwen3.5-397b-a17b:thinking"
+    company: "qwen"
+    completion_provider: "openrouter"
+    pricing:
+      in: 0.55
+      out: 3.5
+    release:
+      date: "2026-02-16"
+      source: "https://openrouter.ai/qwen/qwen3.5-397b-a17b"
+  - id: "google/gemini-3.1-pro-preview:thinking-low"
+    company: "google"
+    completion_provider: "google"
+    batch_completion_provider: "google"
+    completion_model_id: "gemini-3.1-pro-preview"
+    pricing:
+      in: 2.0
+      out: 12.0
+    release:
+      date: "2026-02-19"
+      source: "https://openrouter.ai/google/gemini-3.1-pro-preview"
+  - id: "google/gemini-3.1-pro-preview:thinking-high"
+    company: "google"
+    completion_provider: "google"
+    batch_completion_provider: "google"
+    completion_model_id: "gemini-3.1-pro-preview"
+    pricing:
+      in: 2.0
+      out: 12.0
+    release:
+      date: "2026-02-19"
+      source: "https://openrouter.ai/google/gemini-3.1-pro-preview"
+  - id: "google/gemini-3.5-flash:thinking-none"
+    company: "google"
+    completion_provider: "openrouter"
+    batch_completion_provider: "google"
+    completion_model_id: "gemini-3.5-flash"
+    pricing:
+      in: 1.5
+      out: 9.0
+    release:
+      date: "2026-05-19"
+      source: "https://openrouter.ai/google/gemini-3.5-flash"
+  - id: "google/gemini-3.5-flash:thinking-high"
+    company: "google"
+    completion_provider: "openrouter"
+    batch_completion_provider: "google"
+    completion_model_id: "gemini-3.5-flash"
+    pricing:
+      in: 1.5
+      out: 9.0
+    release:
+      date: "2026-05-19"
+      source: "https://openrouter.ai/google/gemini-3.5-flash"
+  - id: "anthropic/claude-sonnet-4.6"
+    company: "anthropic"
+    completion_provider: "openrouter"
+    batch_completion_provider: "anthropic"
+    completion_model_id: "claude-sonnet-4-6"
+    pricing:
+      in: 3.0
+      out: 15.0
+    release:
+      date: "2026-02-17"
+      source: "https://www.anthropic.com/news/claude-sonnet-4-6"
+  - id: "anthropic/claude-sonnet-4.6:thinking-16k"
+    company: "anthropic"
+    completion_provider: "openrouter"
+    batch_completion_provider: "anthropic"
+    completion_model_id: "claude-sonnet-4-6"
+    pricing:
+      in: 3.0
+      out: 15.0
+    release:
+      date: "2026-02-17"
+      source: "https://www.anthropic.com/news/claude-sonnet-4-6"
+  - id: "anthropic/claude-opus-4.6"
+    company: "anthropic"
+    completion_provider: "openrouter"
+    batch_completion_provider: "anthropic"
+    completion_model_id: "claude-opus-4-6"
+    pricing:
+      in: 5.0
+      out: 25.0
+    release:
+      date: "2026-02-05"
+      source: "https://www.anthropic.com/news/claude-opus-4-6"
+  - id: "anthropic/claude-opus-4.6:thinking-16k"
+    company: "anthropic"
+    completion_provider: "openrouter"
+    batch_completion_provider: "anthropic"
+    completion_model_id: "claude-opus-4-6"
+    pricing:
+      in: 5.0
+      out: 25.0
+    release:
+      date: "2026-02-05"
+      source: "https://www.anthropic.com/news/claude-opus-4-6"
+  - id: "anthropic/claude-opus-4.7"
+    company: "anthropic"
+    completion_provider: "openrouter"
+    batch_completion_provider: "anthropic"
+    completion_model_id: "claude-opus-4-7"
+    pricing:
+      in: 5.0
+      out: 25.0
+    release:
+      date: "2026-04-16"
+      source: "https://openrouter.ai/anthropic/claude-opus-4.7"
+  - id: "anthropic/claude-opus-4.7:thinking-16k"
+    company: "anthropic"
+    completion_provider: "openrouter"
+    batch_completion_provider: "anthropic"
+    pricing:
+      in: 5.0
+      out: 25.0
+    release:
+      date: "2026-04-16"
+      source: "https://openrouter.ai/anthropic/claude-opus-4.7"
+  - id: "anthropic/claude-opus-4.7:thinking-low"
+    company: "anthropic"
+    completion_provider: "openrouter"
+    batch_completion_provider: "anthropic"
+    pricing:
+      in: 5.0
+      out: 25.0
+    release:
+      date: "2026-04-16"
+      source: "https://openrouter.ai/anthropic/claude-opus-4.7"
+  - id: "anthropic/claude-opus-4.7:thinking-medium"
+    company: "anthropic"
+    completion_provider: "openrouter"
+    batch_completion_provider: "anthropic"
+    pricing:
+      in: 5.0
+      out: 25.0
+    release:
+      date: "2026-04-16"
+      source: "https://openrouter.ai/anthropic/claude-opus-4.7"
+  - id: "anthropic/claude-opus-4.7:thinking-high"
+    company: "anthropic"
+    completion_provider: "openrouter"
+    batch_completion_provider: "anthropic"
+    pricing:
+      in: 5.0
+      out: 25.0
+    release:
+      date: "2026-04-16"
+      source: "https://openrouter.ai/anthropic/claude-opus-4.7"
+  - id: "anthropic/claude-opus-4.7:thinking-xhigh"
+    company: "anthropic"
+    completion_provider: "openrouter"
+    batch_completion_provider: "anthropic"
+    pricing:
+      in: 5.0
+      out: 25.0
+    release:
+      date: "2026-04-16"
+      source: "https://openrouter.ai/anthropic/claude-opus-4.7"
+  - id: "anthropic/claude-opus-4.7:thinking-max"
+    company: "anthropic"
+    completion_provider: "openrouter"
+    batch_completion_provider: "anthropic"
+    pricing:
+      in: 5.0
+      out: 25.0
+    release:
+      date: "2026-04-16"
+      source: "https://openrouter.ai/anthropic/claude-opus-4.7"
+  - id: "anthropic/claude-opus-4.8"
+    company: "anthropic"
+    completion_provider: "openrouter"
+    batch_completion_provider: "anthropic"
+    completion_model_id: "claude-opus-4-8"
+    pricing:
+      in: 5.0
+      out: 25.0
+    release:
+      date: "2026-05-28"
+      source: "https://api.anthropic.com/v1/models/claude-opus-4-8"
+  - id: "anthropic/claude-opus-4.8:thinking-16k"
+    company: "anthropic"
+    completion_provider: "openrouter"
+    batch_completion_provider: "anthropic"
+    pricing:
+      in: 5.0
+      out: 25.0
+    release:
+      date: "2026-05-28"
+      source: "https://api.anthropic.com/v1/models/claude-opus-4-8"
+  - id: "anthropic/claude-opus-4.8:thinking-low"
+    company: "anthropic"
+    completion_provider: "openrouter"
+    batch_completion_provider: "anthropic"
+    pricing:
+      in: 5.0
+      out: 25.0
+    release:
+      date: "2026-05-28"
+      source: "https://api.anthropic.com/v1/models/claude-opus-4-8"
+  - id: "anthropic/claude-opus-4.8:thinking-medium"
+    company: "anthropic"
+    completion_provider: "openrouter"
+    batch_completion_provider: "anthropic"
+    pricing:
+      in: 5.0
+      out: 25.0
+    release:
+      date: "2026-05-28"
+      source: "https://api.anthropic.com/v1/models/claude-opus-4-8"
+  - id: "anthropic/claude-opus-4.8:thinking-high"
+    company: "anthropic"
+    completion_provider: "openrouter"
+    batch_completion_provider: "anthropic"
+    pricing:
+      in: 5.0
+      out: 25.0
+    release:
+      date: "2026-05-28"
+      source: "https://api.anthropic.com/v1/models/claude-opus-4-8"
+  - id: "anthropic/claude-opus-4.8:thinking-xhigh"
+    company: "anthropic"
+    completion_provider: "openrouter"
+    batch_completion_provider: "anthropic"
+    pricing:
+      in: 5.0
+      out: 25.0
+    release:
+      date: "2026-05-28"
+      source: "https://api.anthropic.com/v1/models/claude-opus-4-8"
+  - id: "anthropic/claude-opus-4.8:thinking-max"
+    company: "anthropic"
+    completion_provider: "openrouter"
+    batch_completion_provider: "anthropic"
+    pricing:
+      in: 5.0
+      out: 25.0
+    release:
+      date: "2026-05-28"
+      source: "https://api.anthropic.com/v1/models/claude-opus-4-8"
+  - id: "moonshotai/kimi-k2.5"
+    company: "moonshotai"
+    completion_provider: "moonshotai"
+    completion_model_id: "kimi-k2.5"
+    pricing:
+      in: 0.6
+      out: 2.5
+    release:
+      date: "2026-01-27"
+      source: "https://openrouter.ai/moonshotai/kimi-k2.5"
+  - id: "moonshotai/kimi-k2.5:thinking"
+    company: "moonshotai"
+    completion_provider: "moonshotai"
+    completion_model_id: "kimi-k2.5"
+    pricing:
+      in: 0.6
+      out: 2.5
+    release:
+      date: "2026-01-27"
+      source: "https://openrouter.ai/moonshotai/kimi-k2.5"
+  - id: "stepfun/step-3.5-flash"
+    company: "stepfun"
+    completion_provider: "openrouter"
+    pricing:
+      in: 0.1
+      out: 0.4
+    release:
+      date: "2026-01-29"
+      source: "https://openrouter.ai/stepfun/step-3.5-flash"
+  - id: "minimax/minimax-m2.1:thinking"
+    company: "minimax"
+    completion_provider: "openrouter"
+    pricing:
+      in: 0.27
+      out: 0.95
+    release:
+      date: "2025-12-23"
+      source: "https://openrouter.ai/minimax/minimax-m2.1"
+  - id: "minimax/minimax-m2.5:thinking"
+    company: "minimax"
+    completion_provider: "openrouter"
+    pricing:
+      in: 0.35
+      out: 1.4
+    release:
+      date: "2026-02-12"
+      source: "https://openrouter.ai/minimax/minimax-m2.5"
+  - id: "z-ai/glm-4.7"
+    company: "z-ai"
+    completion_provider: "z-ai"
+    completion_model_id: "glm-4.7"
+    pricing:
+      in: 0.6
+      out: 2.2
+    release:
+      date: "2025-12-22"
+      source: "https://openrouter.ai/z-ai/glm-4.7/pricing"
+  - id: "z-ai/glm-4.7-flash"
+    company: "z-ai"
+    completion_provider: "z-ai"
+    completion_model_id: "glm-4.7-flash"
+    pricing:
+      in: 0.11
+      out: 0.36
+    release:
+      date: "2026-01-19"
+      source: "https://openrouter.ai/z-ai/glm-4.7-flash"
+  - id: "z-ai/glm-4.7-flash:thinking"
+    company: "z-ai"
+    completion_provider: "z-ai"
+    completion_model_id: "glm-4.7-flash"
+    pricing:
+      in: 0.11
+      out: 0.36
+    release:
+      date: "2026-01-19"
+      source: "https://openrouter.ai/z-ai/glm-4.7-flash"
+  - id: "z-ai/glm-5"
+    company: "z-ai"
+    completion_provider: "openrouter"
+    completion_model_id: "glm-5"
+    pricing:
+      in: 0.6
+      out: 2.2
+    release:
+      date: "2026-02-11"
+      source: "https://openrouter.ai/z-ai/glm-5"
+    openrouter:
+      provider_only: novita
+  - id: "z-ai/glm-5:thinking"
+    company: "z-ai"
+    completion_provider: "openrouter"
+    completion_model_id: "glm-5"
+    pricing:
+      in: 0.6
+      out: 2.2
+    release:
+      date: "2026-02-11"
+      source: "https://openrouter.ai/z-ai/glm-5"
+    openrouter:
+      provider_only: novita
+  - id: "zenmux/doubao-seed-2.0-pro"
+    company: "zenmux"
+    completion_provider: "zenmux"
+    completion_model_id: "volcengine/doubao-seed-2.0-pro"
+    pricing:
+      in: 0.9
+      out: 4.0
+    release:
+      date: "2026-02-14"
+      source: "https://developer.volcengine.com/articles/7610285824933445675"
+  - id: "zenmux/doubao-seed-2.0-pro:thinking"
+    company: "zenmux"
+    completion_provider: "zenmux"
+    completion_model_id: "volcengine/doubao-seed-2.0-pro"
+    pricing:
+      in: 0.9
+      out: 4.0
+    release:
+      date: "2026-02-14"
+      source: "https://developer.volcengine.com/articles/7610285824933445675"
+  - id: "zenmux/doubao-seed-2.0-mini"
+    company: "zenmux"
+    completion_provider: "zenmux"
+    completion_model_id: "volcengine/doubao-seed-2.0-mini"
+    pricing:
+      in: 0.03
+      out: 0.28
+    release:
+      date: "2026-02-14"
+      source: "https://tarsk.io/models/doubao-seed-2-0-mini"
+  - id: "zenmux/doubao-seed-2.0-mini:thinking"
+    company: "zenmux"
+    completion_provider: "zenmux"
+    completion_model_id: "volcengine/doubao-seed-2.0-mini"
+    pricing:
+      in: 0.03
+      out: 0.28
+    release:
+      date: "2026-02-14"
+      source: "https://tarsk.io/models/doubao-seed-2-0-mini"
+  - id: "zenmux/doubao-seed-2.0-lite"
+    company: "zenmux"
+    completion_provider: "zenmux"
+    completion_model_id: "volcengine/doubao-seed-2.0-lite"
+    pricing:
+      in: 0.09
+      out: 0.51
+    release:
+      date: "2026-02-14"
+      source: "https://developer.volcengine.com/articles/7610285824933445675"
+  - id: "zenmux/doubao-seed-2.0-lite:thinking"
+    company: "zenmux"
+    completion_provider: "zenmux"
+    completion_model_id: "volcengine/doubao-seed-2.0-lite"
+    pricing:
+      in: 0.09
+      out: 0.51
+    release:
+      date: "2026-02-14"
+      source: "https://developer.volcengine.com/articles/7610285824933445675"
+  - id: "zenmux/step-3.5-flash"
+    company: "zenmux"
+    completion_provider: "zenmux"
+    completion_model_id: "stepfun/step-3.5-flash"
+    pricing:
+      in: 0.1
+      out: 0.3
+    release:
+      date: "2026-01-29"
+      source: "https://openrouter.ai/stepfun/step-3.5-flash"
+  - id: "zenmux/step-3.5-flash:thinking"
+    company: "zenmux"
+    completion_provider: "zenmux"
+    completion_model_id: "stepfun/step-3.5-flash"
+    pricing:
+      in: 0.1
+      out: 0.3
+    release:
+      date: "2026-01-29"
+      source: "https://openrouter.ai/stepfun/step-3.5-flash"
+  - id: "zenmux/doubao-seed-1.8"
+    company: "zenmux"
+    completion_provider: "zenmux"
+    completion_model_id: "volcengine/doubao-seed-1.8"
+    pricing:
+      in: 0.11
+      out: 0.28
+    release:
+      date: "2026-01-19"
+      source: "https://aimodelapis.com/providers/zenmux/zenmux-volcengine-doubao-seed-1-8"
+  - id: "zenmux/doubao-seed-1.8:thinking"
+    company: "zenmux"
+    completion_provider: "zenmux"
+    completion_model_id: "volcengine/doubao-seed-1.8"
+    pricing:
+      in: 0.11
+      out: 0.28
+    release:
+      date: "2026-01-19"
+      source: "https://aimodelapis.com/providers/zenmux/zenmux-volcengine-doubao-seed-1-8"
+  - id: "zenmux/mimo-v2-flash"
+    company: "zenmux"
+    completion_provider: "zenmux"
+    completion_model_id: "xiaomi/mimo-v2-flash"
+    pricing:
+      in: 0.0
+      out: 0.0
+    release:
+      date: "2025-12-14"
+      source: "https://openrouter.ai/xiaomi/mimo-v2-flash"
+  - id: "zenmux/mimo-v2-flash:thinking"
+    company: "zenmux"
+    completion_provider: "zenmux"
+    completion_model_id: "xiaomi/mimo-v2-flash"
+    pricing:
+      in: 0.0
+      out: 0.0
+    release:
+      date: "2025-12-14"
+      source: "https://openrouter.ai/xiaomi/mimo-v2-flash"
+  - id: "openrouter/hunter-alpha:thinking-high"
+    company: "stealth"
+    completion_provider: "openrouter"
+    pricing:
+      in: 0.0
+      out: 0.0
+    release:
+      date: "2026-03-11"
+      source: "https://openrouter.ai/openrouter/hunter-alpha"
+  - id: "openrouter/healer-alpha:thinking-high"
+    company: "stealth"
+    completion_provider: "openrouter"
+    pricing:
+      in: 0.0
+      out: 0.0
+    release:
+      date: "2026-03-11"
+      source: "https://openrouter.ai/openrouter/healer-alpha"
+  - id: "openai/gpt-5.5:thinking-none"
+    company: "openai"
+    completion_provider: "openrouter"
+    batch_completion_provider: "openai"
+    completion_model_id: "gpt-5.5"
+    pricing:
+      in: 5.0
+      out: 30.0
+    release:
+      date: "2026-04-24"
+      source: "https://openrouter.ai/openai/gpt-5.5"
+  - id: "openai/gpt-5.5:thinking-medium"
+    company: "openai"
+    completion_provider: "openrouter"
+    batch_completion_provider: "openai"
+    completion_model_id: "gpt-5.5"
+    pricing:
+      in: 5.0
+      out: 30.0
+    release:
+      date: "2026-04-24"
+      source: "https://openrouter.ai/openai/gpt-5.5"

@@ -135,6 +135,10 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+raw/
+plots/
+results/
+plot_non_thinking_scores_vs_output_price.py
 
 # Spyder project settings
 .spyderproject
